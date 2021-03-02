@@ -11,16 +11,16 @@
 
 // }
 
-function toggleMenu(myMenu) {
-    var x = document.getElementById("myMenu");
-    console.log(x.style.display)
-    if (x.style.display !== 'none') {
-        x.style.display = 'none';
-    } else {
-        x.style.display = '';
-    }
-    call(myMenu); 
-}
+// function toggleMenu(myMenu) {
+//     var x = document.getElementById("myMenu");
+//     console.log(x.style.display)
+//     if (x.style.display !== 'none') {
+//         x.style.display = 'none';
+//     } else {
+//         x.style.display = '';
+//     }
+
+// }
 
 const mainNav = document.querySelector('.main-nav')
 
@@ -29,16 +29,15 @@ const mainNav = document.querySelector('.main-nav')
 // function toggleMenu() 
 function toggleMainNav(){
     
-        // function toggleMenu(myMenu) {
-        //     var x = document.getElementById("myMenu");
-        //     console.log(x.style.display)
-        //     if (x.style.display !== 'none') {
-        //         x.style.display = 'none';
-        //     } else {
-        //         x.style.display = '';
-        //     }
-        //     call(myMenu); 
-        // }
+    var x = document.getElementById("myMenu");
+    console.log(x.style.display)
+    
+    if (x.style.display !== 'block') {
+       x.style.display = 'none';
+        } else {
+        x.style.display = 'block';
+            }
+        
     mainNav.classList.toggle('active')
 }
 
