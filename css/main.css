@@ -80,11 +80,10 @@ a {
 		position: relative; 
 
 	} 
-
-	 #myMenu {
-		/* display: block; */
-		display: block;
+	.hidden {
+		visibility: hidden;
 	}
+
 
 	#myMenu{
 
@@ -94,7 +93,6 @@ a {
 		color: black;
 		padding: 2px;
 		font-size: 16px;
-		display: grid;
 		position: relative;
 		direction: row;
 		align-items:baseline;

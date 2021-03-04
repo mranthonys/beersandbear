@@ -32,11 +32,7 @@ function toggleMainNav(){
     var x = document.getElementById("myMenu");
     console.log(x.style.display)
     
-    if (x.style.display !== 'block') {
-       x.style.display = 'none';
-        } else {
-        x.style.display = 'block';
-            }
+    x.classList.toggle('hidden');
         
     mainNav.classList.toggle('active')
 }
