@@ -97,12 +97,7 @@ a {
 		flex-direction: column;
 		align-items: center;
 		justify-content: space-evenly;
-		
-		
-		
-		
-
-
+	
 	}
 
 
@@ -177,7 +172,7 @@ a {
 
 @media (min-width: 769px) {
 
-	.main-header,
+	
 	.row {
 		display: flex;
 		flex-direction: row;
@@ -192,21 +187,21 @@ a {
 	.main-nav span {
 		display: flex;
 		flex-direction: row;
+		visibility: hidden;
 	}
 
 	.col {
 		flex: 1;
-	
-		display: flex;
 		flex-direction: column;
+		display: flex; }
 	}
-
-	.button {
-		margin-top: auto;
-		align-self: flex-start; /* flex-end */
-	}
-
-}
+ @media (max-width: 769px) {
+	.col {
+		flex: 1;
+		flex-direction: column;
+		display: flex;
+		flex: 50% }
+ }
 
 @media (min-width: 1025px) {
 
@@ -228,6 +223,4 @@ a {
 		justify-content: space-around;
 		align-items: stretch;
 	}
-
-
 }
