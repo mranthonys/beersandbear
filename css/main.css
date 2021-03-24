@@ -14,8 +14,7 @@ body {
 	align-content: center;
 	background-color: #BFAA72;
 }
-h1, h2,
-h3,
+h1,
 a {
 	color:Black;
 }
@@ -106,10 +105,21 @@ a {
 	padding-bottom: .5em; 
 } 
 
+.b-row {
+
+	height: 300px;
+
+}
+
+.col:only-child {
+
+	background-color: #645b16;
+
+}
+
 .bear {
 	color: black;
 	background: #4c4a41;
-	/* padding: 3em; */
 	margin-bottom: 40px;
 	height: 200px;
 	display: flex;
@@ -124,6 +134,7 @@ a {
 	border-radius: .35em;
 	margin: 0 .5em .8em;
 	text-align: center;
+	/* cursor: pointer; */
 }
 .main-footer {
 	background: #9F7B21;
@@ -131,11 +142,18 @@ a {
 	margin-top: 30px;
 }
 
-#imgClickandChange {
+img #imgClickandChange {
 
 	object-fit: fill;
+	cursor: pointer;
 
 }
+
+.target1 {
+	border: 2px solid black;
+	cursor: pointer;
+}
+	
 
 
 
