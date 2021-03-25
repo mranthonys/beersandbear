@@ -60,3 +60,20 @@ function changeImage (target, img1, img2) {
     }
 
 }
+
+// function changeImage (target, img1, img2) {
+
+//     if (document.getElementById(target).src == img1)
+//     {
+
+//         document.getElementById(target).src = img2;
+
+//     }
+
+//     else{
+
+//         document.getElementById(target).src = img1;
+
+//     }
+
+// }

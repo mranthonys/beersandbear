@@ -142,16 +142,20 @@ a {
 	margin-top: 30px;
 }
 
-img #imgClickandChange {
-
-	object-fit: fill;
-	cursor: pointer;
-
-}
 
 .target1 {
 	border: 2px solid black;
 	cursor: pointer;
+	object-fit: fill;
+	
+}
+
+.tar2 {
+
+	height: 100%;
+	width: 100%; 
+	object-fit: fill;
+
 }
 	
 
