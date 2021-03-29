@@ -127,6 +127,7 @@ a {
 	flex: 1;
 	box-sizing: border-box;
 	opacity: 85%;
+	
 }
 .col {
 	padding: 2px;
@@ -163,6 +164,7 @@ a {
 
 .logo {
 	object-fit: contain;
+	border: 3px solid #8b4513; 
 }
 
 
@@ -170,7 +172,7 @@ a {
 
 @media (min-width: 769px) {
 	.main-header,
-	.row {
+	.row, .c-row {
 		width: 90%;
 		margin: 0 auto;
 	}
@@ -186,7 +188,7 @@ a {
 }
 @media (min-width: 1025px) {
 	.main-header,
-	.row {
+	.row, .c-row {
 		width: 80%;
 		max-width: 1150px;
 	}
@@ -194,10 +196,15 @@ a {
 
 @media (min-width: 769px) {
 
-	
-	.row {
+	.c-row{
+
 		display: flex;
 		flex-direction: row;
+
+	}
+	.row {
+		display: flex;
+		flex-direction: column;
 	}
 
 	.main-header {
@@ -215,17 +222,39 @@ a {
 	.col {
 		flex: 1;
 		flex-direction: column;
-		display: flex; }
-	}
- @media (max-width: 769px) {
-	.col {
-		flex: 1;
-		flex-direction: column;
 		display: flex;
-		flex: 50% }
- }
+		 }
+	}
+	/* .primary, 
+	.secondary,
+	.tertiary,
+	.fourthiary {
+
+		flex: 1 1 auto;
+
+	} */
+	@media (max-width: 769px) {
+	.primary, 
+	.secondary,
+	.tertiary,
+	.fourthiary {
+		flex: 1 1 auto;
+		}
+	 }
 
 @media (min-width: 1025px) {
+
+	.c-row{
+
+		display: flex;
+		flex-direction: row;
+
+	}
+
+	.row {
+		display: flex;
+		flex-direction: row;
+	}
 
 	.main-header {
 		flex-direction: row;
