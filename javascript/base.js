@@ -99,10 +99,11 @@ let html = '';
 for ( let i = 0; i < skills.length; i++ ) {
     let skill = skills[i];
     html += `
-        <p>${skill.name}</p>
-        <p>${skill.featured}</p>
-        <p>${skill.experience}</p>
-        <img src="${skill.img}">
+        <img src="${skill.img}" class="arrayImg">
+        <p class="arrayName">${skill.name}</p>
+        <p class="arrayFeatured">${skill.featured}</p>
+        <p class="arrayExperience">${skill.experience}</p>
+        
     `;
 }
 
