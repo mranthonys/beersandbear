@@ -61,7 +61,6 @@ a {
 	.active span:nth-child(1) {
 		transform-origin: center center;
 		transform: rotate(-50deg);
-		/* transform: rotate(-45deg) translate(-12px, 12px); */
 		width: 55px;
 		}
 	.active span:nth-child(2) {
@@ -71,7 +70,6 @@ a {
 	.active span:nth-child(3) {
 		transform-origin: center center;
 		transform: rotate(50deg);
-		/* transform: rotate(45deg) translate(-15px, -14px); */
 		width: 55px;
 		}
 	.main-nav {
@@ -105,11 +103,6 @@ a {
 	padding-bottom: .5em; 
 } 
 
-/* .b-row {
-
-	
-
-} */
 
 .col:only-child {
 

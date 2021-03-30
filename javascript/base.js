@@ -1,32 +1,8 @@
 
 
-// function toggleMenu() {
-
-//     var x = document.getElementById("myMenu");
-//         if (x.style.display = "none") {
-//             x.style.display = "block";
-//         } else {
-//             x.style.display = "none";
-//         }
-
-// }
-
-// function toggleMenu(myMenu) {
-//     var x = document.getElementById("myMenu");
-//     console.log(x.style.display)
-//     if (x.style.display !== 'none') {
-//         x.style.display = 'none';
-//     } else {
-//         x.style.display = '';
-//     }
-
-// }
 
 const mainNav = document.querySelector('.main-nav')
 
-// function toggeMenu()
-//     document.getElementById.toggle('myMenu')
-// function toggleMenu() 
 function toggleMainNav(){
     
     var x = document.getElementById("myMenu");
@@ -39,8 +15,6 @@ function toggleMainNav(){
 
 mainNav.addEventListener('click', toggleMainNav);
 
-
-// myMenu.addEventListener('click', toggleMenu);
 
 
 
